@@ -68,24 +68,47 @@ body {
   margin-bottom: 50px;
 }
 
-
-.img-1 {
-  background: url(./Flower-Asset/pngwing\ 6.png); lightgray 50% / cover no-repeat;
-  width: 310px;
-  height: 428px;
+.flower-images {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
+.img-1 {
+  margin: 100px 75px 0px 75px;
+}
+
 .img-1-design {
   width: 464px;
   height: 538px;
   border-radius: 300px 300px 0px 0px;
   background: #a7216226;
-  
+  margin-bottom: ;
+}
+
+.img-1-description {
+  margin-top: 30px;
+  color: #272727;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration-line: underline;
+}
+.img-2 {
+  margin-top: 110px;
 }
 .img-2-design {
   width: 464px;
   height: 538px;
   border-radius: 300px 300px 0px 0px;
   background: #0597a026;
+}
+.img-2-description {
+  margin-top: 30px;
+  color: #272727;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration-line: underline;
 }
 .img-3-design {
   width: 464px;
@@ -94,7 +117,7 @@ body {
   background: #477d1126;
 }
 
-.support{
+.support {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -103,7 +126,7 @@ body {
   width: 1440px;
   height: 320px;
   border-radius: 8px;
-  background: #2727270D;
+  background: #2727270d;
 }
 /* footer style*/
 
