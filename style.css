@@ -5,7 +5,7 @@ body {
   font-family: "Lato", sans-serif;
   font-family: "Open Sans", sans-serif;
 }
-
+/* banner style*/
 .banner {
   background-color: #e554731a;
   padding: 20px 240px 0px 240px;
@@ -43,6 +43,8 @@ body {
 .banner-img {
   width: 600px;
 }
+/* footer style*/
+
 .footer {
   background-color: #111010;
   text-align: center;
@@ -70,4 +72,24 @@ body {
 h2 {
   color: white;
   margin-bottom: 20px;
+}
+/* Hot Deal Style*/
+.hot-deals {
+  background-color: #e554730d;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.deals-content {
+  text-align: center;
+}
+
+.deals-title {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+}
+.discount {
+  color: #e55473;
 }
