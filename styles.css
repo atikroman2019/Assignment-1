@@ -1,9 +1,48 @@
 * {
   margin: 0;
 }
+body {
+  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+.header {
+}
 
 .banner {
   background-color: #e554731a;
-  max-width: 1920px;
-  max-height: 850px;
+  padding: 20px 240px 0px 240px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.banner-title {
+  color: #272727;
+  font-size: 60px;
+  font-weight: 800;
+  margin-right: 80px;
+  margin-top: 150px;
+  ma
+}
+.banner-description {
+  color: #27272799;
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 30px;
+}
+
+.btn-primary {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  background: #e55473;
+  border-radius: 5px;
+  padding: 15px 30px;
+  border: 0;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.banner-img {
+  width: 600px;
 }
