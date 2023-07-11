@@ -276,3 +276,19 @@ body {
   font-size: 20px;
   height: 64px;
 }
+/* extra*/
+.contact-us {
+  background-color: #e55473;
+  text-align: center;
+  padding-top: 120px;
+  color: white;
+}
+
+.contact-us-description {
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
