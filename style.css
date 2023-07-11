@@ -43,3 +43,23 @@ body {
 .banner-img {
   width: 600px;
 }
+.footer {
+  background-color: #111010;
+  text-align: center;
+  padding-top: 120px;
+}
+
+.pink-text {
+  color: #e55473;
+}
+.footer-description {
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+h2 {
+  color: white;
+  margin-bottom: 20px;
+}
